@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+
+    <title>Document</title> 
+    <style> 
+      * { 
+        color: rgb(34, 32, 32); 
+        font-family: Open Sans;
+      } 
+      .list{
+        font-weight:700;
+
+      }
+      .list:hover{
+        color:blue;
+      }
+      .menu { 
+        max-width: 1640px; 
+        display: flex; 
+        justify-content: space-around; 
+        margin: 70px; 
+      } 
+      
+      a { 
+        text-decoration: 0; 
+        color: white; 
+      } 
+      .nav { 
+        display: flex; 
+        /* justify-content: space-between; */ 
+        gap: 120px; 
+      } 
+      .main_second { 
+        display: flex; 
+        margin-left: 20px; 
+        margin-top: 6%; 
+      } 
+      .main_bogy {
+        display: flex;
+
+      }
+      .third_main .first_cards img:hover{
+        width: 500px;
+        height: 410px;
+        transition: 1s
+      }
+      .main_second img { 
+        margin-left: 5%; 
+        width: 80%; 
+        border-radius: 15px; 
+      } 
+      .about_main_p { 
+        width: 70%; 
+      } 
+ 
+      .whats_par { 
+        margin-top: -3.7%; 
+        margin-left: 3%; 
+      } 
+      .about_me img { 
+        width: 4%; 
+        margin-left: -1%; 
+      } 
+      .logo { 
+        position: absolute; 
+        width: 10%; 
+        margin-top: -70px; 
+        margin-left: -1%; 
+      } 
+      .h1_port { 
+        text-align: center; 
+        margin-top: 7%; 
+      } 
+      .third_main { 
+        display: flex; 
+        justify-content: space-between; 
+        height: 100%;
+        width: 95%;
+        margin: 100px auto;
+      } 
+      .third_main img { 
+        width: 75%; 
+        border-radius: 15px; 
+        margin-left: 10%; 
+        height: 75%;
+       justify-content: space-between;
+
+
+      } 
+      .forAnimation{
+        position: relative;
+        animation-name: example;
+        animation: example 5s infinite;
+        animation-duration: 7s;   
+      }
+      @keyframes example {
+        0%   { top:0px;}
+        50%  {top:200px;}
+        75%  {top:0px;}
+        1000%  {top:200px;}
+}
+      .third_main h3 { 
+        text-align: center; 
+      } 
+      .third_main p { 
+        text-align: center; 
+      } 
+      .third_main .first_cards img{
+        width: 400px;
+        height: 400px;
+      }
+    </style> 
+  </head> 
+  <body> 
+    <div class="menu"> 
+      <img 
+        src="https://www.shutterstock.com/image-vector/r-u-letter-logo-creative-600w-1944730570.jpg" 
+        alt="" 
+        class="logo" 
+      /> 
+      <div class="nav"> 
+        <a href="#"><span class="list">HOME</span></a> 
+        <a href="https://www.instagram.com/" 
+          ><span class="list">INSTAGRAM</span></a 
+        > 
+        <a href="https://www.behance.net/arujanmaratkyzy1" 
+          ><span class="list">BEHANCE</span></a 
+        > 
+      </div> 
+    </div> 
+    <div class="main_second"> 
+      <div class="main_bogy"> 
+        <div><img src="https://static.wikia.nocookie.net/23cc3a16-27f2-4d44-9914-8da12defe57e/scale-to-width/755" alt="photo" /> </div>
+        <div><img src="C:\Users\admin\Downloads\phone\friends\me.jpg" alt="photo" /> </div>
+      </div> 
+      <div class="about_me"> 
+        <div class="forAnimation">
+          <h1>Arujan Maratkyzy</h1> 
+          <h2>ARU</h2>
+        <h3>Designer & Animator <br /></h3> 
+        <p class="about_main_p"> 
+            Hi, I'm 17-year old, young animator and designer from Kyrgyzstan. I design projects in whatever style you would like me to do, do animations of all kind, and create brilliant ideas. I use Adobe Illustrator and Adobe Photoshop, for animation - Adobe After Effects. 97% of my customers are satisfied with the results. 
+        </p> 
+        <a 
+          href="https://wa.me/+996555979838" 
+          ><img 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/150px-WhatsApp.svg.png" 
+            alt="" 
+        /></a>
+<p class="whats_par">Contact me via WhatsApp</p> 
+        </div>
+      </div> 
+    </div> 
+    <h1 class="h1_port">Portfolio</h1> 
+    <div class="third_main"> 
+      <div class="first_cards"> 
+        <h3>business card</h3> 
+        <p>The business card for origami center "Eddagami"</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/496cd8152718887.6322de7648369.jpg" alt="" /> 
+      </div> 
+      <div class="first_cards"> 
+        <h3>fonts</h3> 
+        <p>I made a new style for fonts called flora fonts</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/387c5e155827409.635bbb0ac01d1.jpg" alt="" /> 
+      </div> 
+      <div class="first_cards"> 
+        <h3>hot brain</h3> 
+        <p>Based on my bday, hot-18th, brain-November</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/70385c154830259.63493053eb758.jpg" alt="" /> 
+      </div> 
+    </div> 
+
+
+
+     <div class="third_main"> 
+      <div class="first_cards"> 
+        <h3>vogue</h3> 
+        <p>For famous magazine Vogue, it's design and fortune</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/b187ad154012699.633aba5eb8a75.jpg" alt="" /> 
+      </div> 
+      <div class="first_cards"> 
+        <h3>brunch table</h3> 
+        <p>The project was created from scratch, and every detail</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/76d887157538877.637b38d7c3c18.jpg" alt="" /> 
+      </div> 
+      <div class="first_cards"> 
+        <h3>poster</h3> 
+        <p>poster by using mask</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/6a6beb155009117.634d1e76320ed.jpg" alt="" /> 
+      </div> 
+    </div> 
+
+    <div class="third_main"> 
+      <div class="first_cards"> 
+        <h3>Harry Potter heroine</h3> 
+        <p>Hermione Granger photobooth</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/051066152996879.6328414c695f7.jpg" alt="" /> 
+      </div> 
+      <div class="first_cards"> 
+        <h3>paper art</h3> 
+        <p>professional paper art work ft. ocean</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/6d8021157547945.637b58740d18f.jpg" alt="" /> 
+      </div> 
+      <div class="first_cards"> 
+        <h3>octopus</h3> 
+        <p>octopus was drawn from scratch and added an ocean background</p> 
+        <img src="https://mir-cdn.behance.net/v1/rendition/project_modules/source/32ffab153510551.63317998a9626.jpg" alt="" /> 
+      </div> 
+    </div> 
+  </body> 
+</html>
